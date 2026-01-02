@@ -4,7 +4,7 @@
 resource "google_project_service" "vertex_ai" {
   project = var.project_id
   service = "aiplatform.googleapis.com"
-  disable_on_destroy = false
+  disable_on_destroy = true
 }
 
 # Create service account for Vertex AI operations
