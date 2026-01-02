@@ -1,0 +1,6 @@
+# terraform.tfvars.example
+# Copy this file to terraform.tfvars and fill in your values
+
+project_id           = "your-gcp-project-id"
+region               = "us-central1"
+service_account_name = "vertex-ai-gemini-sa"
